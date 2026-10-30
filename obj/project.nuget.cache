@@ -1,24 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "jq+rYEFoZSA=",
-  "success": false,
+  "dgSpecHash": "DZc7usGnCz4=",
+  "success": true,
   "projectFilePath": "C:\\Users\\etec\\Desktop\\crud\\crud.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\etec\\.nuget\\packages\\microsoft.data.sqlite\\10.0.13\\microsoft.data.sqlite.10.0.13.nupkg.sha512",
+    "C:\\Users\\etec\\.nuget\\packages\\microsoft.data.sqlite\\10.0.0\\microsoft.data.sqlite.10.0.0.nupkg.sha512",
     "C:\\Users\\etec\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.0\\microsoft.data.sqlite.core.10.0.0.nupkg.sha512",
-    "C:\\Users\\etec\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.13\\sqlitepclraw.bundle_e_sqlite3.2.1.13.nupkg.sha512",
-    "C:\\Users\\etec\\.nuget\\packages\\sqlitepclraw.core\\2.1.13\\sqlitepclraw.core.2.1.13.nupkg.sha512",
-    "C:\\Users\\etec\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.13\\sqlitepclraw.lib.e_sqlite3.2.1.13.nupkg.sha512",
-    "C:\\Users\\etec\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.13\\sqlitepclraw.provider.e_sqlite3.2.1.13.nupkg.sha512"
+    "C:\\Users\\etec\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.11\\sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
+    "C:\\Users\\etec\\.nuget\\packages\\sqlitepclraw.core\\2.1.11\\sqlitepclraw.core.2.1.11.nupkg.sha512",
+    "C:\\Users\\etec\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.11\\sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
+    "C:\\Users\\etec\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.11\\sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512"
   ],
   "logs": [
     {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.Data.Sqlite.Core from 10.0.13 to 10.0.0. Reference the package directly from the project to select a different version. \r\n crud -> Microsoft.Data.Sqlite 10.0.13 -> Microsoft.Data.Sqlite.Core (>= 10.0.13) \r\n crud -> Microsoft.Data.Sqlite.Core (>= 10.0.0)",
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.11 has a known high severity vulnerability, https://github.com/advisories/GHSA-2m69-gcr7-jv3q",
       "projectPath": "C:\\Users\\etec\\Desktop\\crud\\crud.csproj",
+      "warningLevel": 1,
       "filePath": "C:\\Users\\etec\\Desktop\\crud\\crud.csproj",
-      "libraryId": "Microsoft.Data.Sqlite.Core",
+      "libraryId": "SQLitePCLRaw.lib.e_sqlite3",
       "targetGraphs": [
         "net10.0"
       ]
